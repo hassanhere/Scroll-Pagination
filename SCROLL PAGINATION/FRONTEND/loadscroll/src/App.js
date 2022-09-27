@@ -5,7 +5,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 function App() {
 
   var [data,setdata]=useState([])
-  var [pages,setpages]=useState(10)
+  var [pages,setpages]=useState(15)
   var [loading,setloading]=useState(false)
 
 
