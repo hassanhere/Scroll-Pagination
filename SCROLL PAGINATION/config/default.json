@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://johndoe:johndoe9192@scrollpaginationdatabas.wr6hqs8.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret":"secret"
+}

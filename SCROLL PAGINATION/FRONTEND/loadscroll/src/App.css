@@ -1,0 +1,38 @@
+body
+{
+  margin:0;
+  padding:0;
+}
+.App {
+  display:grid;
+  grid-template-columns: repeat(auto-fit ,minmax(200px,1fr));
+  gap:3rem;
+  border:1px solid black;
+  padding:5px 5px;
+}
+
+.App .box
+{
+  padding:10px 0px;
+  border:1px solid red;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.App .box p
+{
+  /* calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+  font-size: calc(13px + (24 - 14) * ((100vw - 300px) / (1600 - 300))); 
+  font-weight: 700;
+}
+
+
+/* @media only screen and (max-width: 1048px) 
+{
+  .App 
+  {
+    display:grid;
+    grid-template-columns: repeat(auto-fit ,minmax(470px,1fr));
+  }
+
+} */
